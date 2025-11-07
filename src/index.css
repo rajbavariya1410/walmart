@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@media (max-width: 768px) {
+    #details {
+        display: inline-block;
+        width: 100% !important;
+    }
+
+    #d-img {
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 0% 25% 0 25%;
+    }
+    #card{
+        display: inline-block;
+    }
+}
+
+#t-details {
+    display: none;
+}
+
+#order-summary {
+    display: none;
+}
